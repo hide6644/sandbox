@@ -1,0 +1,8 @@
+language: java
+sudo: false
+jdk:
+  - openjdk8
+before_script:
+  - mysql -uroot -e "create database hoge"
+  - mysql -uroot hoge < src/config/schema.sql
+  
