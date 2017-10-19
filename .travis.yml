@@ -5,4 +5,6 @@ jdk:
 before_script:
   - mysql -uroot -e "create database hoge"
   - mysql -uroot hoge < src/config/schema.sql
-  
+  - mysql -uroot hoge -e "select count(*) from novel"
+after_success:
+  - mvn clean package

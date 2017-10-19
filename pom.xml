@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>crawler</groupId>
+    <artifactId>crawler</artifactId>
+    <packaging>jar</packaging>
+    <name>crawler</name>
+    <version>1.3.0</version>
+    <inceptionYear>2013</inceptionYear>
+    <url>https://github.com/hide6644/crawler</url>
+
+    <description>
+        Send update information of "yomou.syosetu.com" by e-mail.
+    </description>
+
+    <scm>
+        <connection>scm:git:git@github.com:hide6644/crawler.git</connection>
+        <developerConnection>scm:git:git@github.com:hide6644/crawler.git</developerConnection>
+        <url>https://github.com/hide6644/crawler.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/hide6644/crawler/issues</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>Travis CI</system>
+        <url>https://travis-ci.org/hide6644/crawler</url>
+    </ciManagement>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>hide6644</id>
+            <name>Hideyuki OKAWA</name>
+            <email>hide6644@gmail.com</email>
+            <roles>
+                <role>Project founder</role>
+            </roles>
+            <timezone>+9</timezone>
+        </developer>
+    </developers>
+
+</project>
